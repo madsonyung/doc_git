@@ -1,5 +1,5 @@
 # doc_git
-documento com os primeiros comandos git
+documentação com os primeiros comandos git
 
 ERROS:
 
