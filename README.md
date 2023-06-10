@@ -35,3 +35,14 @@ git branch: mostra as branchs existentes
 git merge <nome_da_branch>: Adiciona a branch atual o conteudo de outra branch
 
 gitk: exibe todas alterações feitas no projeto
+
+git clone "url repositorio" : baixa todo o projeto do repositorio para sua maquina.
+
+git push: sobe todas as alterações para o github.
+
+git pull: ele puxa as alterações do repositorio.
+
+
+possiveis ERROS 403:
+
+gerenciador de credenciais / credenciais do windows / remover quem estiver credenciado
