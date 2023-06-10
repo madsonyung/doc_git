@@ -11,6 +11,8 @@ git config --global user.email "<seu_email>" adiciona o seu email no projeto
 git init: ele inicia o arquivo "/.git" para controlar a pasta
 
 git status: Responsavel por validar os arquivos modificados dentro do projeto.
+ele mostra os arquivos modificados em vermelho
+ele mostra os arquivos adicionados em verde pelo "git add"
 (ele exibe os arquivos que não foram adicionados ao projeto)
 
 git add: Responsavel por colocar o arquivo modificado em uma área segura
