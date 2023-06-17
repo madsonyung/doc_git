@@ -3,10 +3,15 @@ documentação com os primeiros comandos git
 
 ERROS:
 
-git config --global user.name "<seu_nome>" adiciona o seu nome no projeto
-git config --global user.email "<seu_email>" adiciona o seu email no projeto
+### adiciona o seu nome no projeto
+````
+git config --global user.name "<seu_nome>" 
 
+````
+###  adiciona o seu email no projeto
+git config --global user.email "<seu_email>"
 
+````
 
 git init: ele inicia o arquivo "/.git" para controlar a pasta
 
