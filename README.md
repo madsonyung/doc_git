@@ -40,7 +40,7 @@ git commit -n "<texto_da_modificação>":
 ````
 Ctrl+L:
 ````
- ##  validar os mesus comentarios e modificacoes.
+ ##  validar os meus comentarios e modificacoes.
 ````
 git log:
 ````
