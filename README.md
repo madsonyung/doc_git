@@ -60,6 +60,8 @@ git branch:
 ````
 git merge <nome_da_branch>:
 ````
+## deleta uma branch existente
+git branch - d <nome_da_branch>
 ##  exibe todas alterações feitas no projeto
 ````
 gitk: 
@@ -75,6 +77,7 @@ git push:
 ##   ele puxa as alterações do repositorio.
 ````
 git pull:
+
 ````
 
 ##  possiveis ERROS 403:
