@@ -14,71 +14,66 @@ git config --global user.name "<seu_nome>"
 git config --global user.email "<seu_email>"
 
 ````
-##  ele inicia o arquivo "/.git" para controlar a pasta
-````
-git init:
-````
-##  Responsavel por validar os arquivos modificados dentro do projeto.
-##  ele mostra os arquivos modificados em vermelho
-##  ele mostra os arquivos adicionados em verde pelo "git add"
-##  (ele exibe os arquivos que não foram adicionados ao projeto)
-````
-git status: 
-````
-##  Responsavel por colocar o arquivo modificado em uma área segura
-##  (adiciona os arquivos em vermelho que aparece no git status.)
-````
-git add: 
-````
-##  ele é responsavel por criar uma nova versão do projeto
-##  com as referencias do criador.
-````
-git commit -n "<texto_da_modificação>": 
-````
 
- ##  limpa a tela do terminal.
-````
-Ctrl+L:
-````
- ##  validar os meus comentarios e modificacoes.
-````
-git log:
-````
-##   o "-b" cria uma nova branch
-````
-git checkout -b <nome_da_branch> :
-````
-##  muda de branch
-````
-git checkout <nome_da_branch>: 
-````
-##  mostra as branchs existentes
-````
-git branch: 
-````
-##   Adiciona a branch atual o conteudo de outra branch
-````
-git merge <nome_da_branch>:
-````
-## deleta uma branch existente
-git branch - d <nome_da_branch>
-##  exibe todas alterações feitas no projeto
-````
-gitk: 
-````
-##   baixa todo o projeto do repositorio para sua maquina.
-````
-git clone "url repositorio" :
-````
-##  sobe todas as alterações para o github.
-````
-git push: 
-````
-##   ele puxa as alterações do repositorio.
-````
-git pull:
+1. `git init`: Inicialize um novo repositório Git.
+   Exemplo:
+   ```
+   git init
+   ```
 
-````
+2. `git clone <URL>`: Clone um repositório remoto para o seu computador.
+   Exemplo:
+   ```
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+
+3. `git add <arquivo>`: Adicione um arquivo ao índice (staging area) para ser commitado.
+   Exemplo:
+   ```
+   git add arquivo.txt
+   ```
+
+4. `git commit -m "Mensagem do commit"`: Realize um commit com uma mensagem descritiva.
+   Exemplo:
+   ```
+   git commit -m "Adiciona arquivo de exemplo"
+   ```
+
+5. `git status`: Exiba o status dos arquivos no repositório.
+   Exemplo:
+   ```
+   git status
+   ```
+
+6. `git log`: Mostre o histórico de commits.
+   Exemplo:
+   ```
+   git log
+   ```
+
+7. `git branch`: Liste todas as branches no repositório.
+   Exemplo:
+   ```
+   git branch
+   ```
+
+8. `git branch <nome_da_branch>`: Crie uma nova branch.
+   Exemplo:
+   ```
+   git branch nova-feature
+   ```
+
+9. `git checkout <nome_da_branch>`: Mude para a branch especificada.
+   Exemplo:
+   ```
+   git checkout nova-feature
+   ```
+
+10. `git merge <nome_da_branch>`: Realize a mesclagem de uma branch em outra.
+    Exemplo (estando na branch principal):
+    ```
+    git merge nova-feature
+    ```
 
 ##  possiveis ERROS 403:
 
