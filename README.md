@@ -75,6 +75,54 @@ git config --global user.email "<seu_email>"
     git merge nova-feature
     ```
 
+##  `git pull`: Puxa as alterações do repositório remoto para a branch atual.
+   Exemplo (estando na branch principal):
+   ```
+   git pull origin master
+   ```
+
+##  `git push`: Envia commits locais para o repositório remoto.
+   Exemplo (para enviar a branch atual para o repositório remoto):
+   ```
+   git push origin nome-da-branch
+   ```
+
+##  `git reset --hard HEAD~1`: Desfaz o último commit e descarta todas as alterações.
+   Exemplo:
+   ```
+   git reset --hard HEAD~1
+   ```
+
+##  `git stash`: Armazena temporariamente as alterações não commitadas.
+   Exemplo:
+   ```
+   git stash save "Trabalho em andamento"
+   ```
+
+##  `git stash pop`: Aplica as alterações do stash de volta ao diretório de trabalho.
+   Exemplo:
+   ```
+   git stash pop
+   ```
+
+##  `git log --oneline --graph --decorate --all`: Mostra um histórico gráfico de todas as branches.
+   Exemplo:
+   ```
+   git log --oneline --graph --decorate --all
+   ```
+
+##  `git clean -n`: Mostra quais arquivos não rastreados seriam removidos.
+   Exemplo:
+   ```
+   git clean -n
+   ```
+
+##  `git clean -f`: Remove os arquivos não rastreados.
+   Exemplo:
+   ```
+   git clean -f
+   ```
+
 ##  possiveis ERROS 403:
 
 gerenciador de credenciais / credenciais do windows / remover quem estiver credenciado
